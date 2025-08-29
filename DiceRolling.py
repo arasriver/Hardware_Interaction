@@ -27,7 +27,7 @@ if __name__ == "__main__":
                     counter += 1
                     print(result)
             else:
-                print("Invalid choice!")
+                print("Invalid choice!!")
 
             print("Contract to roll again, or relax for 5 seconds to stop.")
             time.sleep(5.0)
