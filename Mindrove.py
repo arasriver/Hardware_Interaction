@@ -62,9 +62,9 @@ class MindroveDevice:
     def start_stream(self):
         if self.board and self.board.is_prepared():
             self.board.start_stream()
-            print("Stream started.")
+            print("Stream started...")
         else:
-            print("Cannot start stream. Device not ready.")
+            print("Cannot start stream. Device not ready!")
 
     def get_data_chunk(self):
         if not self.board or self.board.get_board_data_count() == 0:
