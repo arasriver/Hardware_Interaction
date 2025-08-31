@@ -87,7 +87,7 @@ class MindroveDevice:
             self.board.release_session()
             print("Session released.")
         else:
-            print("Device is not prepared or already released.")
+            print("Device is not prepared or already released!")
 
 
 if __name__ == "__main__":
